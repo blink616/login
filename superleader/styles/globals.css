@@ -1,0 +1,104 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.login {
+  margin: auto;
+  margin-top: 5rem;
+  width: 100%;
+  max-width: 70%;
+  background-image: url("../public/shared/images/login.svg");
+  background-position: right 220px top 40px;
+  background-repeat: no-repeat;
+  background-size: 90% 90%;
+  height: 35rem;
+}
+
+.login label,
+.signin label {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.signin {
+  margin: auto;
+  margin-top: 5rem;
+  width: 100%;
+  max-width: 70%;
+  background-image: url("../public/shared/images/signin.svg");
+  background-position: 190px 35px;
+  background-repeat: no-repeat;
+  background-size: 90% 90%;
+  height: 35rem;
+}
+
+.logincard {
+  float: right;
+  max-width: 40%;
+  margin-right: 15px;
+  width: 380px;
+  padding-top: 20px;
+  height: 450px;
+}
+.signincard {
+  max-width: 40%;
+  margin-top: 15px;
+  margin-left: 15px;
+  width: 400px;
+  padding: 20px;
+  height: 500px;
+}
+
+.loginform {
+  margin-top: 5%;
+}
+.loginform h5 {
+  float: right;
+  margin-right: 33px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.loginform .form-group {
+  width: 25%;
+  margin: auto;
+  min-width: 220px;
+  max-width: 25%;
+  margin-top: 15px;
+  float: right;
+  clear: both;
+  padding-top: 5px;
+}
+
+.signincard .form-group {
+  width: 25%;
+  min-width: 220px;
+  max-width: 20%;
+  margin: auto;
+  margin-top: 10px;
+  float: left;
+  clear: both;
+  padding-top: 5px;
+}
+
+.signinform h5,
+.loginform h5 {
+  margin-top: 20px;
+  margin: auto;
+  font-style: italic;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.form-group h6 {
+  font-size: 12px;
+  margin-top: 20px;
+}
