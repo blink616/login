@@ -2,8 +2,8 @@ import { Form, FormGroup, Label, Input, Card } from "reactstrap";
 import { Button } from "react-bootstrap";
 import Link from "next/link";
 
-
 function Login() {
+
   return (
     <Card className="login shadow p-3 mb-5 bg-white rounded">
     
@@ -13,18 +13,18 @@ function Login() {
         <FormGroup>
           <Label>Email</Label>
           <Input
-            className="input-group"
-            type="email"
-            placeholder="Email"
-          ></Input>
+    className="input-group"
+    type="email"
+    placeholder="Email"
+    />
         </FormGroup>
         <FormGroup>
           <Label>Password</Label>
           <Input
-            className="input-group"
-            type="password"
-            placeholder="Password"
-          ></Input>
+    className="input-group"
+    type="password"
+    placeholder="Password"
+    />
         </FormGroup>
 
         <FormGroup>

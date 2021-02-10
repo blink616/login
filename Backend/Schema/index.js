@@ -21,10 +21,11 @@ type AuthData {
 }
 type RootMutation {
     createUser(userInput: UserInput): User
-   
+    login(email: String!, password: String!): AuthData!
+       
 }
 type RootQuery{
-login(email: String!, password: String!): AuthData!
+  login(email: String!, password: String!): AuthData!
 }
 schema {
     query: RootQuery
